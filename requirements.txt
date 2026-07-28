@@ -1,4 +1,4 @@
 ipykernel
 django
 gunicorn
-rest_framework
+djangorestframework
