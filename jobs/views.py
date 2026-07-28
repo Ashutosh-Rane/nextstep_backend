@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from .jobposting import process_job
 
 
-@api_view(["GET"])
+@api_view(["GET","POST"])
 def add_job(request):
 
     result = process_job(request.data)
