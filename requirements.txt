@@ -3,3 +3,4 @@ django
 gunicorn
 djangorestframework
 django-cors-headers
+google-auth
