@@ -5,8 +5,8 @@ WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxwTm1COWzzNO4zJ-cgPbrHwz
 
 def process_job(data):
 
-    response = data.post(WEB_APP_URL, json=data)
-    response.raise_for_status()
+    '''response = data.post(WEB_APP_URL, json=data)
+    response.raise_for_status()'''
     print("========= JOB RECEIVED =========")
 
     print("Job Name :", data.get("job_name"))
