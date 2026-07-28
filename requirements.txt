@@ -2,3 +2,4 @@ ipykernel
 django
 gunicorn
 djangorestframework
+django-cors-headers

@@ -1,2 +1,3 @@
-def job_details(data):
-    print(data)
+from django.db import models
+
+# Create your models here.

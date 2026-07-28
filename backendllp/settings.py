@@ -87,10 +87,7 @@ DATABASES = {
     }
 }
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5175",
-    "https://127.0.0.1:5173",
-]
+CORS_ALLOWED_ORIGINS = [True]
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
