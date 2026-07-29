@@ -4,7 +4,6 @@ from .views import JobHistoryAPIView, add_job
 
 urlpatterns = [
     path("jobs/", add_job),
-    path("job-history/", JobHistoryAPIView.as_view(), name="job-history"),
 ]
 
 
